@@ -14,10 +14,10 @@ const App = () => {
     takeScreenshot,
     unload,
   } = useUnityContext({
-    loaderUrl: "/unitybuild/crateclicker.loader.js",
-    dataUrl: "/unitybuild/crateclicker.data",
-    frameworkUrl: "/unitybuild/crateclicker.framework.js",
-    codeUrl: "/unitybuild/crateclicker.wasm",
+    loaderUrl: "/unitybuild/CasinoBuild.loader.js",
+    dataUrl: "/unitybuild/CasinoBuild.data",
+    frameworkUrl: "/unitybuild/CasinoBuild.framework.js",
+    codeUrl: "/unitybuild/CasinoBuild.wasm",
     webglContextAttributes: {
       preserveDrawingBuffer: true,
     },
